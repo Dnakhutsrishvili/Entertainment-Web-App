@@ -1,0 +1,238 @@
+.recomended {
+  display: grid;
+  grid-template-columns: 164px 164px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin-left: 16px;
+}
+.imgAll {
+  height: 110px;
+  width: 164px;
+
+  border-radius: 8px;
+}
+.allMoives {
+  margin-left: auto;
+  margin-right: auto;
+}
+.titleRecomended {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.3125px;
+
+  /* Pure White */
+
+  color: #ffffff;
+  margin: 0;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  margin-top: 6px;
+}
+.description {
+  display: flex;
+
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+.movieTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  /* Pure White */
+
+  color: #ffffff;
+  margin: 0;
+  margin-top: 4px;
+}
+.bookmarkContainerTrending {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+
+  border-radius: 50%;
+  background: #10141e;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 210px;
+  margin-left: 125px;
+}
+.overbanner {
+  position: absolute;
+  margin-top: 90px;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+  margin-left: 16px;
+}
+.categoryImg {
+  height: 12px;
+  width: 12px;
+}
+.trendingyear {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+
+  /* Pure White */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin: 0;
+}
+.trendingTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  /* identical to box height */
+
+  /* Pure White */
+
+  color: #ffffff;
+  margin: 0;
+  margin-top: 4px;
+  margin-left: 16px;
+}
+.dot {
+  height: 3px;
+  width: 3px;
+
+  border-radius: 50%;
+  /* Pure White */
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.3125px;
+
+  /* Pure White */
+
+  color: #ffffff;
+  margin: 0;
+  margin-left: 16px;
+  margin-top: 26px;
+  margin-bottom: 24px;
+}
+.result {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 130px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.3125px;
+
+  /* Pure White */
+
+  color: #ffffff;
+}
+.allMoivesSearch {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+.recomendedSearch {
+  margin-top: 75px;
+  display: grid;
+  grid-template-columns: 164px 164px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin-left: 16px;
+}
+@media only screen and (min-width: 600px) {
+  .imgAll {
+    width: 220px;
+    height: 140px;
+
+    border-radius: 8px;
+  }
+  .recomended {
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    grid-column-gap: 29px;
+    grid-row-gap: 29px;
+    margin-left: 16px;
+  }
+  .recomendedSearch {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    grid-column-gap: 29px;
+    grid-row-gap: 29px;
+    margin-left: 16px;
+  }
+  .result {
+    margin-top: 170px;
+  }
+  .bookmarkContainerTrending {
+    margin-bottom: 270px;
+    margin-left: 175px;
+  }
+  .bookmarkContainerTrending:hover {
+    background: #ffffff;
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 880px) {
+  .container {
+    margin-left: 114px;
+  }
+
+  .recomended {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-column-gap: 29px;
+    grid-row-gap: 29px;
+    margin-left: 16px;
+  }
+  .recomendedSearch {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-column-gap: 29px;
+    grid-row-gap: 29px;
+    margin-left: 16px;
+  }
+  .imgAll {
+    height: 174px;
+    width: 280px;
+
+    border-radius: 8px;
+  }
+  .bookmarkContainerTrending {
+    margin-bottom: 340px;
+    margin-left: 240px;
+  }
+  .recomendedSearch {
+    margin-left: 114px;
+  }
+  .result {
+    margin-left: 114px;
+    margin-top: 80px;
+  }
+}

@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
-
+html {
+  font-size: 10px;
+}
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 880px) {
+  html {
+    font-size: 14px;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,6 +25,9 @@
   }
 }
 
+body {
+  background-color: #10141e;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +50,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.font-face-gm {
+  font-family: "Outfit";
 }

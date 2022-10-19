@@ -1,0 +1,47 @@
+.input {
+  width: 80%;
+  height: 22px;
+  padding-left: 64px;
+  background: #10141e;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  /* Pure White */
+
+  color: #ffffff;
+  caret-color: #fc4747;
+}
+.inputParent {
+  margin-top: 30px;
+}
+
+::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  /* Pure White */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.searchIcon {
+  position: absolute;
+  margin-left: 19px;
+  margin-top: -4px;
+}
+@media only screen and (min-width: 880px) {
+  .input {
+    margin-left: 114px;
+  }
+  .searchIcon {
+    margin-left: 134px;
+  }
+}

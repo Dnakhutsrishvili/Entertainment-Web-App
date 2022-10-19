@@ -1,0 +1,105 @@
+.headerContainer {
+  height: 56px;
+
+  background: #161d2f;
+}
+.headerparent {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.navigation {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+
+  margin: 0;
+}
+.avatar {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin: 16px;
+}
+.logo {
+  padding: 16px;
+}
+
+.home {
+  list-style-image: url("../assets/images/icon-nav-home.svg");
+  cursor: pointer;
+}
+.movies {
+  list-style-image: url("../assets/images/icon-nav-movies.svg");
+  cursor: pointer;
+}
+.tvShows {
+  list-style-image: url("../assets/images/icon-nav-tv-series.svg");
+  cursor: pointer;
+}
+.bookmark {
+  list-style-image: url("../assets/images/icon-nav-bookmark.svg");
+  cursor: pointer;
+}
+
+.home:hover {
+  filter: invert(45%) sepia(71%) saturate(3225%) hue-rotate(335deg)
+    brightness(103%) contrast(98%);
+}
+.movies:hover {
+  filter: invert(45%) sepia(71%) saturate(3225%) hue-rotate(335deg)
+    brightness(103%) contrast(98%);
+}
+.tvShows:hover {
+  filter: invert(45%) sepia(71%) saturate(3225%) hue-rotate(335deg)
+    brightness(103%) contrast(98%);
+}
+.bookmark:hover {
+  filter: invert(45%) sepia(71%) saturate(3225%) hue-rotate(335deg)
+    brightness(103%) contrast(98%);
+}
+
+@media only screen and (min-width: 600px) {
+  .headerContainer {
+    height: 72px;
+    border-radius: 10px;
+  }
+}
+@media only screen and (min-width: 880px) {
+  .headerContainer {
+    position: fixed;
+    margin: 24px;
+    height: 560px;
+    width: 76px;
+    margin-top: -10px;
+    border-radius: 20px;
+  }
+  .headerparent {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: -10px;
+    margin-top: 75px;
+  }
+
+  .avatar {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 16px;
+    margin-top: 160px;
+  }
+}
